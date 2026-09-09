@@ -1,0 +1,28 @@
+{
+	"eslint.workingDirectories": [
+		"auto"
+	],
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"eslint.alwaysShowStatus": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "modificationsIfAvailable",
+	"eslint.validate": [
+		"javascript",
+		"typescript",
+		"vue",
+		"html",
+		"json",
+		"css",
+		"tailwindcss",
+	],
+	"tailwindCSS.experimental.configFile": "app/assets/css/main.css"
+}

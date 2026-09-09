@@ -1,0 +1,8 @@
+{
+  "name": "@b42-packages",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.18.0"
+}
