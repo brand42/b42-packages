@@ -1,5 +1,5 @@
 {
-  "name": "@brand42/eslint-config",
+  "name": "@b42-packages/eslint-config",
   "version": "0.1.0",
   "type": "module",
   "main": "./index.cjs",
