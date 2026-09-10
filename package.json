@@ -1,5 +1,5 @@
 {
-  "name": "@b42-packages",
+  "name": "b42-packages",
   "private": true,
   "workspaces": [
     "packages/*"

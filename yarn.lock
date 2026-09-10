@@ -34,18 +34,13 @@ __metadata:
     "@nuxt/eslint": "npm:^1.17.0"
     "@tailwindcss/vite": "npm:^4.3.3"
     eslint-plugin-better-tailwindcss: "npm:^4.7.0"
-    typescript-eslint: "npm:^8.69.0"
+    tailwind-csstree: "npm:^0.4.0"
+    typescript-eslint: "npm:^8.70.0"
     vite-plugin-eslint2: "npm:^5.3.0"
   peerDependencies:
     eslint: ^10.10.0
     tailwindcss: ^4.3.3
     typescript: ^6.0.0
-  languageName: unknown
-  linkType: soft
-
-"@brand42/tooling@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@brand42/tooling@workspace:."
   languageName: unknown
   linkType: soft
 
@@ -1057,6 +1052,12 @@ __metadata:
   checksum: 10c0/c5640c2d89045371c7cedd6a70212a04e360fd34d6edeae32f6952c63949e3525ea77dbec0289d8213a99bbaeab5abfa860b5c12cf88a2e6cf8106e90dd27a7e
   languageName: node
   linkType: hard
+
+"b42-packages@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "b42-packages@workspace:."
+  languageName: unknown
+  linkType: soft
 
 "balanced-match@npm:^4.0.2":
   version: 4.0.4
@@ -2795,6 +2796,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tailwind-csstree@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "tailwind-csstree@npm:0.4.0"
+  peerDependencies:
+    "@eslint/css": ">=1.0.0"
+  peerDependenciesMeta:
+    "@eslint/css":
+      optional: true
+  checksum: 10c0/d6158d569d9f0c827129e6ff72c3f9eb3f6d90d57f3ecccb2f657df3e32355a53e19fb6e023d7da23238aa155cf51bf0cb0b4722bc47f70502d61b544a92a475
+  languageName: node
+  linkType: hard
+
 "tailwindcss@npm:4.3.3":
   version: 4.3.3
   resolution: "tailwindcss@npm:4.3.3"
@@ -2900,7 +2913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.69.0":
+"typescript-eslint@npm:^8.70.0":
   version: 8.70.0
   resolution: "typescript-eslint@npm:8.70.0"
   dependencies:
